@@ -39,7 +39,7 @@ SELECT title FROM books LIMIT 10;
 SELECT * FROM books LIMIT 1;
  
 SELECT title, released_year FROM books 
-ORDER BY released_year DESC LIMIT 5;
+ORDER BY released_year DESC LIMIT 3;
 
 SELECT title, author_fname, author_lname, pages 
 FROM books
